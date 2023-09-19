@@ -1,0 +1,327 @@
+html {
+  height: 100%;
+  width: 100%;
+  }
+
+/* Add style to button */
+
+
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+body {
+ 
+
+    /* Add a background color or image */
+    background-color: #ffffff;
+    background-image: url('');
+
+    /* Customize the font, size, and color for text*/
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+
+    /* Adjust the padding and margins */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+
+}
+
+.image{
+    text-align: center;
+   width: 400px;
+    height: 100px;
+}
+.image img{
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    padding-inline: 25px;
+
+}
+img {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  padding-left: 40%;
+}
+
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {color: #810404;
+    font-size: 36px;
+font-weight: bold;
+    text-align: center;
+}
+
+h2 {color: #12349b;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {color: #425403;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p {font-size: 16px;
+   text-align:center;
+  line-height: 1.5;
+  margin-bottom: 0%;
+  color: saddlebrown;
+
+}
+
+a:link { color: sandybrown;
+  text-decoration:none;
+
+}
+
+a:visited {
+  color: #4e0920;
+}
+
+a:hover {
+  color: #43091e;
+}
+
+a:active {
+  background-color: peachpuff;
+}
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+
+}
+
+ul li {
+
+}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+button {
+  background-color: #2020cf;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+
+  #theme-button {
+  text-decoration:underline;
+  font:100;
+  color:#129b6e;
+  padding:#9b5012;
+  border:#c1a30b;
+  border-width:0ch;
+ 
+}
+}
+
+
+
+
+/* Select and style elements by class name or ID */
+
+/* Example: This styles elements with class="header"*/
+.header-container {
+  text-align: center;
+  color: darkgoldenrod;
+padding-top:10px ;
+margin-bottom:0% ;
+ 
+}
+
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {
+  background-color: whitesmoke;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 50%;
+  max-width: 100%;
+}
+
+.header-item:nth-of-type(1) {
+  text-align: center;
+  color: lightpink;
+  width: 50%;
+}
+
+.header-item:nth-of-type(2) {
+  text-align: center;
+  color: darkcyan;
+  width: 50%;
+}
+
+.header-button{
+  text-align: center;
+  color: lightpink;
+  font-size: 20px;
+}
+
+.header-button button {
+  background-color: lavender;
+  border: none;
+  color: blue;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  margin:none;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 3px solid #20042f;
+  background-color: #310741;
+ 
+  padding: 20px;
+}
+ 
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+    list-style: none;
+  overflow: hidden
+  position: fixed;
+  top: 0;
+  width: 100%;
+margin-bottom: 0;
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+  display: block;
+    font-family: Arial;
+    color:#360202;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+    background-color: #FF0000;
+ 
+}
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  margin-top:0%
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+ 
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+
+}
+
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+/* Customize Dark Mode Theme */
+.dark-mode {
+background-color: black;
+color: white;
+}
+
+#theme-button {
+  text-decoration:underline;
+  background-color:#b11616;
+  font:100;
+  color:#129b6e;
+  padding:#9b5012;
+  border:#12609b;
+  border-width:0ch;
+ 
+}
+/* Selector for the class petition-container */
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+/* Selector for the class petition-para */
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+}
+
+/* Selector for the class signatures */
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+.error {
+  border: 2px solid red;
+}
